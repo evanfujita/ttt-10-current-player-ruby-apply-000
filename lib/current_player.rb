@@ -3,7 +3,7 @@ board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
 def turn_count(board)
   counter = 1
   board.each do | moves |
-  puts "#{moves}"
+    if moves == "X" || moves == "O"
   counter += 1 
   puts "#{counter}"
 end
