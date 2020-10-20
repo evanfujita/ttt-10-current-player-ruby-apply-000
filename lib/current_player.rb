@@ -17,6 +17,7 @@ end
   
   
 def current_player(board)
+  board.to_i
   if board.even == true
     current_player = "O"
   elsif board.odd == true
