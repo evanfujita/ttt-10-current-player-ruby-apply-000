@@ -19,5 +19,3 @@ def current_player(board)
     current_player = "O"
   end
 end
-puts "#{current_player}"
-end
