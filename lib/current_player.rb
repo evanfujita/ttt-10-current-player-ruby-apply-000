@@ -22,8 +22,8 @@ end
 puts "#{current_player}"
 end
 
-def current_player(board)
-  while board < 9
+def current_player(number)
+  while number < 9
   turn_count(board)
   if counter.even? == true
     current_player = "O"
