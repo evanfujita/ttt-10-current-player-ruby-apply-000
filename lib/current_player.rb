@@ -9,7 +9,7 @@ def turn_count(board)
 end
 end
 
-def current_player(board)
+def current_player(counter)
   counter = 0
   while counter < 9
   turn_count(board)
