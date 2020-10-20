@@ -1,10 +1,10 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
-  turn = 0
-  board.each do | turn |
-  turn += 1 
-  puts "#{turn}"
+  counter = 0
+  board.each do | counter |
+  puts "#{counter}"
+  counter += 1 
 end
 end
 
