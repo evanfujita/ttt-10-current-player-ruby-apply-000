@@ -17,3 +17,13 @@ def current_player(board)
     current_player = "X"
 end
 end
+
+
+def current_player(board)
+  turn_count(board)
+  if counter.odd? == true
+    current_player = "O"
+  else    
+    current_player = "X"
+end
+end
