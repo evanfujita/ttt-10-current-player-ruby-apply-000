@@ -21,3 +21,15 @@ def current_player(board)
 end
 puts "#{current_player}"
 end
+
+def current_player(board)
+  while board < 9
+  turn_count(board)
+  if counter.even? == true
+    current_player = "O"
+  else    
+    current_player = "X"
+  end
+end
+puts "#{current_player}"
+end
