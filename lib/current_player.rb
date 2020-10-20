@@ -2,13 +2,14 @@ board = ["X", " ", "O", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
   counter = 1
-    if counter > 9
-      break
   board.each do | moves |
     if moves == "X" || moves == "O"
-  counter += 1 
+  counter += 1
   end
-end
+  end
+    if counter > 9
+      break
+    end
 end
 
 
