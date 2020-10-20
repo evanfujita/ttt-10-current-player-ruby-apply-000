@@ -17,13 +17,3 @@ def current_player(board)
     current_player = "X"
 end
 end
-  
-  
-def current_player(board)
-  board.to_i
-  if turn_count(board).even? == true
-    current_player = "O"
-  else
-    current_player = "X"
-end
-end
