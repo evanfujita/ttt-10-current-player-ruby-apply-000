@@ -20,7 +20,7 @@ def current_player(board)
   board.to_i
   if turn_count(board).even? == true
     current_player = "O"
-  else
+  elsif turn_count(board).odd?
     current_player = "X"
 end
 end
