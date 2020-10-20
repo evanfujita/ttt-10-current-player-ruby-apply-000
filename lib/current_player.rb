@@ -5,11 +5,12 @@ def turn_count(board)
   board.each do | moves |
     if moves == "X" || moves == "O"
   counter += 1 
-end
     until counter == 9
+  end
+end
     puts "counter"
 end
-end
+
 
 def current_player(board)
   if turn_count(board).odd? == true
