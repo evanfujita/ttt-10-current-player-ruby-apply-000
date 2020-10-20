@@ -6,12 +6,11 @@ def turn_count(board)
     if moves == "X" || moves == "O"
   counter += 1
   end
-  puts "#{counter}"
 end
 
 
 def current_player(board)
-  counter = 1
+  counter = 0
   while counter < 9
   turn_count(board)
   if counter.even? == true
