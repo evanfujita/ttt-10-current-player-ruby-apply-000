@@ -15,3 +15,11 @@ def current_player(board)
 end
 end
   
+  
+def current_player(board)
+  if board.even == true
+    current_player = "O"
+  elsif board.odd == true
+    current_player = "X"
+end
+end
