@@ -12,9 +12,10 @@ end
 
 def current_player(board)
   counter = 1
-  if counter.odd? == true
+  if counter.even? == true
     current_player = "O"
   else    
     current_player = "X"
 end
+  puts "#{counter}"
 end
