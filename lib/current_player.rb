@@ -5,6 +5,7 @@ def turn_count(board)
   board.each do | moves |
   puts "#{moves}"
   counter += 1 
+  puts "#{counter}"
 end
 end
 
