@@ -19,4 +19,5 @@ def current_player(board)
     current_player = "X"
   end
 end
+puts "#{current_player}"
 end
