@@ -1,4 +1,4 @@
-board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["X", " ", "O", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
   counter = 1
