@@ -2,7 +2,7 @@ board = ["X", " ", "O", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
   board.each do | moves |
-    while moves == "X" || moves == "O" && counter < 9
+    while moves == "X" || moves == "O"
   counter += 1
   end
   end
